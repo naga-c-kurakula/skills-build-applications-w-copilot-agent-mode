@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">Octofit Tracker</Link>
@@ -44,7 +44,7 @@ function App() {
           <Route path="/" element={<h2>Welcome to Octofit Tracker!</h2>} />
         </Routes>
       </div>
-    </Router>
+    </>
   );
 }
 
